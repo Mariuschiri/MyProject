@@ -1,0 +1,77 @@
+html {
+    background: black url(background.jpg) center center no-repeat;
+    background-size: cover;
+    color:black;
+}
+
+body {
+    line-height: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+}
+@media {min-width: 500px) {body {display: grid: ;}}
+
+.container {
+    background: rgba(24, 119, 242, 0.7);
+    margin: 2vh;
+    padding: 2rem;
+    border-radius: 2rem;
+    font-size: clamp(1rem, 2vh, 2rem);
+    line-height: 1.5em;
+}
+
+.avatar {
+    margin: 0 2em 0 0;
+    display: block;
+    padding: 0;
+    float: left;
+    width: 100px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.ListaLink {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color: black;
+    
+}
+
+.sus {
+    text-align: center;
+}
+
+.mijloc {
+    padding-top: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.ListaLinkuri {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ListaPrincipala {
+    border-top: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+.ListaPrincipala:hover {
+    background-color: white;
+    color: black;
+}
+
+.TitluPrincipal {
+    font-size: clamp(2rem, 4vh, 4rem);
+}
+
+.buton {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-align: right;
+}
